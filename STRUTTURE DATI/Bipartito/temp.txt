@@ -1,0 +1,11 @@
+
+                
+                
+                    
+                        
+                        
+                else:
+                    # togli elemento da pila
+                    pila.elimina()
+                    # tolgo il suo arco dalla soluzione
+                    soluzione.remove(arco)

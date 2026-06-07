@@ -11,10 +11,9 @@ def selectionsort(lista: list):
         lista[posMax] = temp
         
         postoGiusto = postoGiusto + 1
-        
-    print(lista)
 
 
+# cerco la posizione del massimo nella lista
 def getPosMax(lista: list, inizio: int): 
     lung: int = len(lista)
     if lung > 0 and inizio < lung:
