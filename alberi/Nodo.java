@@ -5,7 +5,7 @@ public class Nodo {
 
     public Nodo(){
         valore = 0;
-        sx = null;
+        __sx = null;
         dx = null;
     }
 
